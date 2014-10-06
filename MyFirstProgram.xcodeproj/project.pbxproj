@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E406CB9C19DB5BEC00C4D535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E406CB9B19DB5BEC00C4D535 /* main.m */; };
+		E406CBA419DB6B0700C4D535 /* Sphere.m in Sources */ = {isa = PBXBuildFile; fileRef = E406CBA319DB6B0700C4D535 /* Sphere.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E406CB9819DB5BEC00C4D535 /* MyFirstProgram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyFirstProgram; sourceTree = BUILT_PRODUCTS_DIR; };
 		E406CB9B19DB5BEC00C4D535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E406CBA219DB6A2A00C4D535 /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		E406CBA319DB6B0700C4D535 /* Sphere.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sphere.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E406CB9B19DB5BEC00C4D535 /* main.m */,
+				E406CBA219DB6A2A00C4D535 /* Sphere.h */,
+				E406CBA319DB6B0700C4D535 /* Sphere.m */,
 			);
 			path = MyFirstProgram;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E406CBA419DB6B0700C4D535 /* Sphere.m in Sources */,
 				E406CB9C19DB5BEC00C4D535 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
